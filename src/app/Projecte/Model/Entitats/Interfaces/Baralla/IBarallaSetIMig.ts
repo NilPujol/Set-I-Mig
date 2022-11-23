@@ -3,4 +3,5 @@ import { IBaralla } from "./IBaralla";
 
 export interface IBarallaSetIMig extends IBaralla<ICartaSetIMig> {
   generar(): void;
+  eliminar(carta: ICartaSetIMig): void;
 }

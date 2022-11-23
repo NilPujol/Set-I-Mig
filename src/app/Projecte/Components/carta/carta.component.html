@@ -1,1 +1,7 @@
-<p>carta works!</p>
+<h1 *ngIf="carta.visible">
+  {{carta.num}} {{carta.img}}
+</h1>
+
+<h1 *ngIf="!carta.visible" (click)="agafar(carta)">
+  &#x2B1B;
+</h1>
